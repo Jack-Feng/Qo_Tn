@@ -1,0 +1,30 @@
+workspace 'MyWorkspaceOC-Pod.xcworkspace' #workspace文件名
+
+project ‘MyWorkspaceOC/MyWorkspaceOC.xcodeproj' #主工程路径
+
+# 主工程
+target ‘MyWorkspaceOC’ do
+    
+    platform :ios, '8.0'
+    project ‘MyWorkspaceOC/MyWorkspaceOC.xcodeproj' #工程路径
+    pod 'AFNetworking'   # (3.1.0)
+    pod 'FMDB'
+end
+
+#FMDB 项目工程
+target ‘FmdbProject’ do
+    
+    platform :ios, '8.0'
+    project ‘FmdbProject/FmdbProject.xcodeproj' #工程路径
+    pod 'AFNetworking'   # (3.1.0)
+    pod 'FMDB'
+end
+
+#K线  项目工程
+target ‘k-LineProject’ do
+    
+    platform :ios, '8.0'
+    project ‘k-LineProject/k-LineProject.xcodeproj' #工程路径
+    pod 'AFNetworking'   # (3.1.0)
+    pod 'FMDB'
+end
