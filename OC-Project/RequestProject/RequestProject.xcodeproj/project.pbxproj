@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA754984207DB21100768460 /* QNBasePublicClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA754985207DB21100768460 /* QNBasePublicClass.framework */; };
 		F410D50E1F17B36B0057CA2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F410D50D1F17B36B0057CA2F /* main.m */; };
 		F410D5111F17B36B0057CA2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F410D5101F17B36B0057CA2F /* AppDelegate.m */; };
 		F410D5141F17B36B0057CA2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F410D5131F17B36B0057CA2F /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA754985207DB21100768460 /* QNBasePublicClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QNBasePublicClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F410D5091F17B36B0057CA2F /* RequestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RequestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F410D50D1F17B36B0057CA2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F410D50F1F17B36B0057CA2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA754984207DB21100768460 /* QNBasePublicClass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA754983207DB21100768460 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA754985207DB21100768460 /* QNBasePublicClass.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F410D5001F17B36B0057CA2F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +96,7 @@
 				F410D5251F17B36B0057CA2F /* RequestProjectTests */,
 				F410D5301F17B36B0057CA2F /* RequestProjectUITests */,
 				F410D50A1F17B36B0057CA2F /* Products */,
+				BA754983207DB21100768460 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -207,7 +219,7 @@
 				TargetAttributes = {
 					F410D5081F17B36B0057CA2F = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = MNT36ZC229;
+						DevelopmentTeam = PUB5T7Z6P6;
 						ProvisioningStyle = Automatic;
 					};
 					F410D5211F17B36B0057CA2F = {
@@ -374,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -417,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -429,7 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MNT36ZC229;
+				DEVELOPMENT_TEAM = PUB5T7Z6P6;
 				INFOPLIST_FILE = RequestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunqifeng.RequestProject;
@@ -441,7 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MNT36ZC229;
+				DEVELOPMENT_TEAM = PUB5T7Z6P6;
 				INFOPLIST_FILE = RequestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunqifeng.RequestProject;
@@ -518,6 +530,7 @@
 				F410D5381F17B36B0057CA2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F410D5391F17B36B0057CA2F /* Build configuration list for PBXNativeTarget "RequestProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +539,7 @@
 				F410D53B1F17B36B0057CA2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F410D53C1F17B36B0057CA2F /* Build configuration list for PBXNativeTarget "RequestProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +548,7 @@
 				F410D53E1F17B36B0057CA2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

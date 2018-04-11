@@ -24,11 +24,6 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
-		<key>Pods-QNBasePublicClass.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
-		</dict>
 		<key>Pods-k-LineProject.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
