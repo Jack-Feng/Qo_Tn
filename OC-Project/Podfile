@@ -6,8 +6,10 @@ project ‘MyWorkspaceOC/MyWorkspaceOC.xcodeproj' #主工程路径
 target ‘MyWorkspaceOC’ do
     
     platform :ios, '8.0'
+    use_frameworks!
+    inhibit_all_warnings!
     project ‘MyWorkspaceOC/MyWorkspaceOC.xcodeproj' #工程路径
-    pod 'AFNetworking'   # (3.1.0)
+    pod 'AFNetworking'
     pod 'FMDB'
 end
 
@@ -15,8 +17,10 @@ end
 target ‘FmdbProject’ do
     
     platform :ios, '8.0'
+    use_frameworks!
+    inhibit_all_warnings!
     project ‘FmdbProject/FmdbProject.xcodeproj' #工程路径
-    pod 'AFNetworking'   # (3.1.0)
+    pod 'AFNetworking'
     pod 'FMDB'
 end
 
@@ -24,7 +28,20 @@ end
 target ‘k-LineProject’ do
     
     platform :ios, '8.0'
+    use_frameworks!
+    inhibit_all_warnings!
     project ‘k-LineProject/k-LineProject.xcodeproj' #工程路径
-    pod 'AFNetworking'   # (3.1.0)
+    pod 'AFNetworking'
     pod 'FMDB'
 end
+
+#K线  项目工程
+target ‘QNBasePublicClass’ do
+    
+    platform :ios, '8.0'
+    use_frameworks!
+    inhibit_all_warnings!
+    project ‘QNBasePublicClass/QNBasePublicClass.xcodeproj' #工程路径
+
+end
+

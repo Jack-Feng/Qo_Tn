@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B1D06BB7F723423F2754D24 /* libPods-FmdbProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BED2AE32EF41A31D0A5AEDC8 /* libPods-FmdbProject.a */; };
+		BA75497F207DB20100768460 /* QNBasePublicClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA754980207DB20100768460 /* QNBasePublicClass.framework */; };
+		BDA569521760B83453FF5A03 /* Pods_FmdbProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8C94DC93F0135E4792AAE6 /* Pods_FmdbProject.framework */; };
 		F410D5441F17B43D0057CA2F /* FMDB_HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F410D5411F17B43D0057CA2F /* FMDB_HomeVC.m */; };
 		F410D5481F17BE050057CA2F /* CreateTableFmdbVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F410D5471F17BE050057CA2F /* CreateTableFmdbVC.m */; };
 		F410D54B1F17BE1B0057CA2F /* AddTableFmdbVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F410D54A1F17BE1B0057CA2F /* AddTableFmdbVC.m */; };
@@ -43,8 +44,9 @@
 
 /* Begin PBXFileReference section */
 		0802ECB275EA4F6BC8400C96 /* Pods-FmdbProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FmdbProject.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-FmdbProject/Pods-FmdbProject.debug.xcconfig"; sourceTree = "<group>"; };
-		BED2AE32EF41A31D0A5AEDC8 /* libPods-FmdbProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FmdbProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA754980207DB20100768460 /* QNBasePublicClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QNBasePublicClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D1D86FBC6B25B9475E9101 /* Pods-FmdbProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FmdbProject.release.xcconfig"; path = "../Pods/Target Support Files/Pods-FmdbProject/Pods-FmdbProject.release.xcconfig"; sourceTree = "<group>"; };
+		DC8C94DC93F0135E4792AAE6 /* Pods_FmdbProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FmdbProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F410D5401F17B43D0057CA2F /* FMDB_HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB_HomeVC.h; sourceTree = "<group>"; };
 		F410D5411F17B43D0057CA2F /* FMDB_HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDB_HomeVC.m; sourceTree = "<group>"; };
 		F410D5451F17B4C10057CA2F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -81,7 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B1D06BB7F723423F2754D24 /* libPods-FmdbProject.a in Frameworks */,
+				BA75497F207DB20100768460 /* QNBasePublicClass.framework in Frameworks */,
+				BDA569521760B83453FF5A03 /* Pods_FmdbProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +117,8 @@
 		F04F7C720E70E44F38F3B28E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BED2AE32EF41A31D0A5AEDC8 /* libPods-FmdbProject.a */,
+				BA754980207DB20100768460 /* QNBasePublicClass.framework */,
+				DC8C94DC93F0135E4792AAE6 /* Pods_FmdbProject.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -138,26 +142,10 @@
 			path = FMDBController;
 			sourceTree = "<group>";
 		};
-		F410D5421F17B43D0057CA2F /* FMDBVIew */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = FMDBVIew;
-			sourceTree = "<group>";
-		};
-		F410D5431F17B43D0057CA2F /* FMDBModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = FMDBModel;
-			sourceTree = "<group>";
-		};
 		F43E04631F177C30007ED720 = {
 			isa = PBXGroup;
 			children = (
 				F410D53F1F17B43D0057CA2F /* FMDBController */,
-				F410D5421F17B43D0057CA2F /* FMDBVIew */,
-				F410D5431F17B43D0057CA2F /* FMDBModel */,
 				F43E046E1F177C31007ED720 /* FmdbProject */,
 				F43E04881F177C31007ED720 /* FmdbProjectTests */,
 				F43E04931F177C31007ED720 /* FmdbProjectUITests */,
@@ -290,7 +278,7 @@
 				TargetAttributes = {
 					F43E046B1F177C31007ED720 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = ZW57ANKPMQ;
+						DevelopmentTeam = PUB5T7Z6P6;
 						ProvisioningStyle = Automatic;
 					};
 					F43E04841F177C31007ED720 = {
@@ -376,9 +364,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-FmdbProject/Pods-FmdbProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -391,13 +384,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FmdbProject-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -511,7 +507,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -554,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -567,7 +563,7 @@
 			baseConfigurationReference = 0802ECB275EA4F6BC8400C96 /* Pods-FmdbProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZW57ANKPMQ;
+				DEVELOPMENT_TEAM = PUB5T7Z6P6;
 				INFOPLIST_FILE = FmdbProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunqifeng.FmdbProject;
@@ -580,7 +576,7 @@
 			baseConfigurationReference = D6D1D86FBC6B25B9475E9101 /* Pods-FmdbProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZW57ANKPMQ;
+				DEVELOPMENT_TEAM = PUB5T7Z6P6;
 				INFOPLIST_FILE = FmdbProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunqifeng.FmdbProject;
