@@ -233,9 +233,9 @@
 			isa = PBXGroup;
 			children = (
 				F4F4F4CA215C053B0070F256 /* AssistiveTouch.h */,
-				F4F4F4CB215C053B0070F256 /* UpdateUrlTableViewController.m */,
 				F4F4F4CC215C053B0070F256 /* AssistiveTouch.m */,
 				F4F4F4CD215C053B0070F256 /* UpdateUrlTableViewController.h */,
+				F4F4F4CB215C053B0070F256 /* UpdateUrlTableViewController.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -259,15 +259,15 @@
 		F4F4F4D3215C053C0070F256 /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F4F4F4D4215C053C0070F256 /* BaseTabbarViewController.m */,
-				F4F4F4D5215C053C0070F256 /* BaseViewController.m */,
 				F4F4F4D6215C053C0070F256 /* BaseView */,
-				F4F4F4D9215C053C0070F256 /* MenuViewController.h */,
-				F4F4F4DA215C053C0070F256 /* BaseNavigationViewController.h */,
-				F4F4F4DB215C053C0070F256 /* BaseTabbarViewController.h */,
-				F4F4F4DC215C053C0070F256 /* BaseNavigationViewController.m */,
-				F4F4F4DD215C053C0070F256 /* MenuViewController.m */,
 				F4F4F4DE215C053C0070F256 /* BaseViewController.h */,
+				F4F4F4D5215C053C0070F256 /* BaseViewController.m */,
+				F4F4F4D9215C053C0070F256 /* MenuViewController.h */,
+				F4F4F4DD215C053C0070F256 /* MenuViewController.m */,
+				F4F4F4DB215C053C0070F256 /* BaseTabbarViewController.h */,
+				F4F4F4D4215C053C0070F256 /* BaseTabbarViewController.m */,
+				F4F4F4DA215C053C0070F256 /* BaseNavigationViewController.h */,
+				F4F4F4DC215C053C0070F256 /* BaseNavigationViewController.m */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -284,8 +284,8 @@
 		F4F4F4DF215C053C0070F256 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F4F4F4E0215C053C0070F256 /* TableBaseVC.m */,
 				F4F4F4E1215C053C0070F256 /* TableBaseVC.h */,
+				F4F4F4E0215C053C0070F256 /* TableBaseVC.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -293,11 +293,11 @@
 		F4F4F4E2215C053C0070F256 /* BasePublicClass */ = {
 			isa = PBXGroup;
 			children = (
-				F4F4F4E3215C053C0070F256 /* VersionBaseClass.h */,
-				F4F4F4E4215C053C0070F256 /* VersionClass.m */,
 				F4F4F4E5215C053C0070F256 /* PublicMethod */,
+				F4F4F4E3215C053C0070F256 /* VersionBaseClass.h */,
 				F4F4F4E9215C053C0070F256 /* VersionBaseClass.m */,
 				F4F4F4EA215C053C0070F256 /* VersionClass.h */,
+				F4F4F4E4215C053C0070F256 /* VersionClass.m */,
 			);
 			path = BasePublicClass;
 			sourceTree = "<group>";
@@ -305,18 +305,10 @@
 		F4F4F4E5215C053C0070F256 /* PublicMethod */ = {
 			isa = PBXGroup;
 			children = (
-				F4F4F4E6215C053C0070F256 /* ThridSDK */,
-				F4F4F4E7215C053C0070F256 /* CalculateSize.m */,
 				F4F4F4E8215C053C0070F256 /* CalculateSize.h */,
+				F4F4F4E7215C053C0070F256 /* CalculateSize.m */,
 			);
 			path = PublicMethod;
-			sourceTree = "<group>";
-		};
-		F4F4F4E6215C053C0070F256 /* ThridSDK */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ThridSDK;
 			sourceTree = "<group>";
 		};
 		F4F4F4EB215C053C0070F256 /* CoreDataClass */ = {
@@ -331,10 +323,10 @@
 		F4F4F4EF215C053C0070F256 /* ExtensionClass */ = {
 			isa = PBXGroup;
 			children = (
-				F4F4F4F0215C053C0070F256 /* FEBaseTools.m */,
-				F4F4F4F1215C053C0070F256 /* QFBaseGroup.m */,
 				F4F4F4F2215C053C0070F256 /* FEBaseTools.h */,
+				F4F4F4F0215C053C0070F256 /* FEBaseTools.m */,
 				F4F4F4F3215C053C0070F256 /* QFBaseGroup.h */,
+				F4F4F4F1215C053C0070F256 /* QFBaseGroup.m */,
 			);
 			path = ExtensionClass;
 			sourceTree = "<group>";
