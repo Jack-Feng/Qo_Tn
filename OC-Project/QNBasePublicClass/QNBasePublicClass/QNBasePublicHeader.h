@@ -42,6 +42,7 @@
  */
 #import "FEBaseTools.h"
 #import "CalculateSize.h"
+#import "C_ClassTools.h"
 
 /*
  基础网络请求  及相关方法

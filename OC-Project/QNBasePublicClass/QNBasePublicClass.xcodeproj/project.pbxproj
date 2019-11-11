@@ -7,45 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3945B0507CBB38D908A2F77A /* Pods_QNBasePublicClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D692CAC81B05B29193C1B268 /* Pods_QNBasePublicClass.framework */; };
 		BA75497A207DB1BF00768460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA754979207DB1BF00768460 /* Foundation.framework */; };
 		BA75497C207DB1C600768460 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA75497B207DB1C600768460 /* UIKit.framework */; };
-		BA75498A207DB7FF00768460 /* TableBaseVC.h in Headers */ = {isa = PBXBuildFile; fileRef = BA754988207DB7FF00768460 /* TableBaseVC.h */; };
-		BA75498B207DB7FF00768460 /* TableBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA754989207DB7FF00768460 /* TableBaseVC.m */; };
 		BAD0F3D1207DB0F800C7EB48 /* QNBasePublicClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD0F3C7207DB0F800C7EB48 /* QNBasePublicClass.framework */; };
 		BAD0F3D6207DB0F800C7EB48 /* QNBasePublicClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD0F3D5207DB0F800C7EB48 /* QNBasePublicClassTests.m */; };
 		BAD0F3D8207DB0F800C7EB48 /* QNBasePublicClass.h in Headers */ = {isa = PBXBuildFile; fileRef = BAD0F3CA207DB0F800C7EB48 /* QNBasePublicClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4F4F4F5215C053C0070F256 /* AssistiveTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4CA215C053B0070F256 /* AssistiveTouch.h */; };
+		F41894602379479600C9D0ED /* QNBasePublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BA754977207DB19C00768460 /* QNBasePublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F41894632379483E00C9D0ED /* C_ClassTools.h in Headers */ = {isa = PBXBuildFile; fileRef = F41894612379483E00C9D0ED /* C_ClassTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F41894642379483E00C9D0ED /* C_ClassTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F41894622379483E00C9D0ED /* C_ClassTools.m */; };
+		F418946923794A8C00C9D0ED /* QNIntroductoryPagesView.h in Headers */ = {isa = PBXBuildFile; fileRef = F418946723794A8C00C9D0ED /* QNIntroductoryPagesView.h */; };
+		F418946A23794A8C00C9D0ED /* QNIntroductoryPagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = F418946823794A8C00C9D0ED /* QNIntroductoryPagesView.m */; };
+		F418947023794ABA00C9D0ED /* intro_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F418946C23794ABA00C9D0ED /* intro_2.jpg */; };
+		F418947123794ABA00C9D0ED /* intro_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F418946D23794ABA00C9D0ED /* intro_1.jpg */; };
+		F418947223794ABA00C9D0ED /* intro_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F418946E23794ABA00C9D0ED /* intro_3.jpg */; };
+		F418947323794ABA00C9D0ED /* intro_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F418946F23794ABA00C9D0ED /* intro_0.jpg */; };
+		F418947623794ADF00C9D0ED /* QNImtroductoryPagesHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F418947423794ADF00C9D0ED /* QNImtroductoryPagesHelper.h */; };
+		F418947723794ADF00C9D0ED /* QNImtroductoryPagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F418947523794ADF00C9D0ED /* QNImtroductoryPagesHelper.m */; };
+		F4F4F4F5215C053C0070F256 /* AssistiveTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4CA215C053B0070F256 /* AssistiveTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4F4F4F6215C053C0070F256 /* UpdateUrlTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4F4CB215C053B0070F256 /* UpdateUrlTableViewController.m */; };
 		F4F4F4F7215C053C0070F256 /* AssistiveTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4F4CC215C053B0070F256 /* AssistiveTouch.m */; };
-		F4F4F4F8215C053C0070F256 /* UpdateUrlTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4CD215C053B0070F256 /* UpdateUrlTableViewController.h */; };
+		F4F4F4F8215C053C0070F256 /* UpdateUrlTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4CD215C053B0070F256 /* UpdateUrlTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4F4F4F9215C053C0070F256 /* Base_URLClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4F4CF215C053B0070F256 /* Base_URLClass.m */; };
-		F4F4F4FA215C053C0070F256 /* Base_URLClass.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4D0215C053B0070F256 /* Base_URLClass.h */; };
-		F4F4F4FB215C053C0070F256 /* MacroDefinitionHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4D1215C053B0070F256 /* MacroDefinitionHeader.h */; };
+		F4F4F4FA215C053C0070F256 /* Base_URLClass.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4D0215C053B0070F256 /* Base_URLClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4F4F4FB215C053C0070F256 /* MacroDefinitionHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4D1215C053B0070F256 /* MacroDefinitionHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4F4F4FC215C053C0070F256 /* BaseTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4F4D4215C053C0070F256 /* BaseTabbarViewController.m */; };
 		F4F4F4FD215C053C0070F256 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4F4D5215C053C0070F256 /* BaseViewController.m */; };
 		F4F4F4FE215C053C0070F256 /* BaseNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4F4D7215C053C0070F256 /* BaseNavigationBar.m */; };
-		F4F4F4FF215C053C0070F256 /* BaseNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4D8215C053C0070F256 /* BaseNavigationBar.h */; };
-		F4F4F500215C053C0070F256 /* MenuViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4D9215C053C0070F256 /* MenuViewController.h */; };
-		F4F4F501215C053C0070F256 /* BaseNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4DA215C053C0070F256 /* BaseNavigationViewController.h */; };
-		F4F4F502215C053C0070F256 /* BaseTabbarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4DB215C053C0070F256 /* BaseTabbarViewController.h */; };
+		F4F4F4FF215C053C0070F256 /* BaseNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4D8215C053C0070F256 /* BaseNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4F4F500215C053C0070F256 /* MenuViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4D9215C053C0070F256 /* MenuViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4F4F501215C053C0070F256 /* BaseNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4DA215C053C0070F256 /* BaseNavigationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4F4F502215C053C0070F256 /* BaseTabbarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4DB215C053C0070F256 /* BaseTabbarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4F4F503215C053C0070F256 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4F4DC215C053C0070F256 /* BaseNavigationViewController.m */; };
 		F4F4F504215C053C0070F256 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4F4DD215C053C0070F256 /* MenuViewController.m */; };
-		F4F4F505215C053C0070F256 /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4DE215C053C0070F256 /* BaseViewController.h */; };
+		F4F4F505215C053C0070F256 /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4DE215C053C0070F256 /* BaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4F4F506215C053C0070F256 /* TableBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4F4E0215C053C0070F256 /* TableBaseVC.m */; };
-		F4F4F507215C053C0070F256 /* TableBaseVC.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4E1215C053C0070F256 /* TableBaseVC.h */; };
-		F4F4F508215C053C0070F256 /* VersionBaseClass.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4E3215C053C0070F256 /* VersionBaseClass.h */; };
+		F4F4F508215C053C0070F256 /* VersionBaseClass.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4E3215C053C0070F256 /* VersionBaseClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4F4F509215C053C0070F256 /* VersionClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4F4E4215C053C0070F256 /* VersionClass.m */; };
 		F4F4F50A215C053C0070F256 /* CalculateSize.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4F4E7215C053C0070F256 /* CalculateSize.m */; };
-		F4F4F50B215C053C0070F256 /* CalculateSize.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4E8215C053C0070F256 /* CalculateSize.h */; };
+		F4F4F50B215C053C0070F256 /* CalculateSize.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4E8215C053C0070F256 /* CalculateSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4F4F50C215C053C0070F256 /* VersionBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4F4E9215C053C0070F256 /* VersionBaseClass.m */; };
-		F4F4F50D215C053C0070F256 /* VersionClass.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4EA215C053C0070F256 /* VersionClass.h */; };
-		F4F4F50E215C053C0070F256 /* CoreDataPublicManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4EC215C053C0070F256 /* CoreDataPublicManager.h */; };
+		F4F4F50D215C053C0070F256 /* VersionClass.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4EA215C053C0070F256 /* VersionClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4F4F50E215C053C0070F256 /* CoreDataPublicManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4EC215C053C0070F256 /* CoreDataPublicManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4F4F50F215C053C0070F256 /* CoreDataPublicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4F4ED215C053C0070F256 /* CoreDataPublicManager.m */; };
 		F4F4F511215C053C0070F256 /* FEBaseTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4F4F0215C053C0070F256 /* FEBaseTools.m */; };
 		F4F4F512215C053C0070F256 /* QFBaseGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4F4F1215C053C0070F256 /* QFBaseGroup.m */; };
-		F4F4F513215C053C0070F256 /* FEBaseTools.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4F2215C053C0070F256 /* FEBaseTools.h */; };
-		F4F4F514215C053C0070F256 /* QFBaseGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4F3215C053C0070F256 /* QFBaseGroup.h */; };
+		F4F4F513215C053C0070F256 /* FEBaseTools.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4F2215C053C0070F256 /* FEBaseTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4F4F514215C053C0070F256 /* QFBaseGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4F3215C053C0070F256 /* QFBaseGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,19 +66,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		56169A05E2391D04873F2687 /* Pods-QNBasePublicClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNBasePublicClass.release.xcconfig"; path = "../Pods/Target Support Files/Pods-QNBasePublicClass/Pods-QNBasePublicClass.release.xcconfig"; sourceTree = "<group>"; };
 		BA754977207DB19C00768460 /* QNBasePublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNBasePublicHeader.h; sourceTree = "<group>"; };
 		BA754979207DB1BF00768460 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BA75497B207DB1C600768460 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BA754988207DB7FF00768460 /* TableBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableBaseVC.h; sourceTree = "<group>"; };
-		BA754989207DB7FF00768460 /* TableBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableBaseVC.m; sourceTree = "<group>"; };
 		BAD0F3C7207DB0F800C7EB48 /* QNBasePublicClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QNBasePublicClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD0F3CA207DB0F800C7EB48 /* QNBasePublicClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNBasePublicClass.h; sourceTree = "<group>"; };
 		BAD0F3CB207DB0F800C7EB48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAD0F3D0207DB0F800C7EB48 /* QNBasePublicClassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QNBasePublicClassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD0F3D5207DB0F800C7EB48 /* QNBasePublicClassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNBasePublicClassTests.m; sourceTree = "<group>"; };
 		BAD0F3D7207DB0F800C7EB48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D692CAC81B05B29193C1B268 /* Pods_QNBasePublicClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNBasePublicClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41894612379483E00C9D0ED /* C_ClassTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C_ClassTools.h; sourceTree = "<group>"; };
+		F41894622379483E00C9D0ED /* C_ClassTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C_ClassTools.m; sourceTree = "<group>"; };
+		F418946723794A8C00C9D0ED /* QNIntroductoryPagesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNIntroductoryPagesView.h; sourceTree = "<group>"; };
+		F418946823794A8C00C9D0ED /* QNIntroductoryPagesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNIntroductoryPagesView.m; sourceTree = "<group>"; };
+		F418946C23794ABA00C9D0ED /* intro_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_2.jpg; sourceTree = "<group>"; };
+		F418946D23794ABA00C9D0ED /* intro_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_1.jpg; sourceTree = "<group>"; };
+		F418946E23794ABA00C9D0ED /* intro_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_3.jpg; sourceTree = "<group>"; };
+		F418946F23794ABA00C9D0ED /* intro_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_0.jpg; sourceTree = "<group>"; };
+		F418947423794ADF00C9D0ED /* QNImtroductoryPagesHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNImtroductoryPagesHelper.h; sourceTree = "<group>"; };
+		F418947523794ADF00C9D0ED /* QNImtroductoryPagesHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNImtroductoryPagesHelper.m; sourceTree = "<group>"; };
 		F4F4F4CA215C053B0070F256 /* AssistiveTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssistiveTouch.h; sourceTree = "<group>"; };
 		F4F4F4CB215C053B0070F256 /* UpdateUrlTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateUrlTableViewController.m; sourceTree = "<group>"; };
 		F4F4F4CC215C053B0070F256 /* AssistiveTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssistiveTouch.m; sourceTree = "<group>"; };
@@ -103,7 +116,6 @@
 		F4F4F4F1215C053C0070F256 /* QFBaseGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFBaseGroup.m; sourceTree = "<group>"; };
 		F4F4F4F2215C053C0070F256 /* FEBaseTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEBaseTools.h; sourceTree = "<group>"; };
 		F4F4F4F3215C053C0070F256 /* QFBaseGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFBaseGroup.h; sourceTree = "<group>"; };
-		F67DF5B76FFE26A567B4E532 /* Pods-QNBasePublicClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNBasePublicClass.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-QNBasePublicClass/Pods-QNBasePublicClass.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +125,6 @@
 			files = (
 				BA75497C207DB1C600768460 /* UIKit.framework in Frameworks */,
 				BA75497A207DB1BF00768460 /* Foundation.framework in Frameworks */,
-				3945B0507CBB38D908A2F77A /* Pods_QNBasePublicClass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,32 +139,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		282F77C57629B3C7BE40319F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F67DF5B76FFE26A567B4E532 /* Pods-QNBasePublicClass.debug.xcconfig */,
-				56169A05E2391D04873F2687 /* Pods-QNBasePublicClass.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		BA754978207DB1BF00768460 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				BA75497B207DB1C600768460 /* UIKit.framework */,
 				BA754979207DB1BF00768460 /* Foundation.framework */,
-				D692CAC81B05B29193C1B268 /* Pods_QNBasePublicClass.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BA754987207DB78900768460 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				BA754988207DB7FF00768460 /* TableBaseVC.h */,
-				BA754989207DB7FF00768460 /* TableBaseVC.m */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		BAD0F3BD207DB0F800C7EB48 = {
@@ -163,7 +155,6 @@
 				BAD0F3D4207DB0F800C7EB48 /* QNBasePublicClassTests */,
 				BAD0F3C8207DB0F800C7EB48 /* Products */,
 				BA754978207DB1BF00768460 /* Frameworks */,
-				282F77C57629B3C7BE40319F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,17 +170,14 @@
 		BAD0F3C9207DB0F800C7EB48 /* QNBasePublicClass */ = {
 			isa = PBXGroup;
 			children = (
-				BA754987207DB78900768460 /* ViewController */,
 				F4F4F4E2215C053C0070F256 /* BasePublicClass */,
 				F4F4F4D3215C053C0070F256 /* BaseViewController */,
-				F4F4F4D2215C053B0070F256 /* CategoryClass */,
 				F4F4F4EB215C053C0070F256 /* CoreDataClass */,
 				F4F4F4EF215C053C0070F256 /* ExtensionClass */,
 				F4F4F4C7215C053B0070F256 /* NetworkingClass */,
-				F4F4F4C6215C053B0070F256 /* ProtocolClass */,
 				F4F4F4DF215C053C0070F256 /* ViewController */,
-				F4F4F4D1215C053B0070F256 /* MacroDefinitionHeader.h */,
 				BAD0F3CA207DB0F800C7EB48 /* QNBasePublicClass.h */,
+				F4F4F4D1215C053B0070F256 /* MacroDefinitionHeader.h */,
 				BA754977207DB19C00768460 /* QNBasePublicHeader.h */,
 				BAD0F3CB207DB0F800C7EB48 /* Info.plist */,
 			);
@@ -205,11 +193,27 @@
 			path = QNBasePublicClassTests;
 			sourceTree = "<group>";
 		};
-		F4F4F4C6215C053B0070F256 /* ProtocolClass */ = {
+		F418946623794A2500C9D0ED /* 启动页 */ = {
 			isa = PBXGroup;
 			children = (
+				F418946B23794A9600C9D0ED /* QNImage */,
+				F418946723794A8C00C9D0ED /* QNIntroductoryPagesView.h */,
+				F418946823794A8C00C9D0ED /* QNIntroductoryPagesView.m */,
+				F418947423794ADF00C9D0ED /* QNImtroductoryPagesHelper.h */,
+				F418947523794ADF00C9D0ED /* QNImtroductoryPagesHelper.m */,
 			);
-			path = ProtocolClass;
+			path = "启动页";
+			sourceTree = "<group>";
+		};
+		F418946B23794A9600C9D0ED /* QNImage */ = {
+			isa = PBXGroup;
+			children = (
+				F418946F23794ABA00C9D0ED /* intro_0.jpg */,
+				F418946D23794ABA00C9D0ED /* intro_1.jpg */,
+				F418946C23794ABA00C9D0ED /* intro_2.jpg */,
+				F418946E23794ABA00C9D0ED /* intro_3.jpg */,
+			);
+			path = QNImage;
 			sourceTree = "<group>";
 		};
 		F4F4F4C7215C053B0070F256 /* NetworkingClass */ = {
@@ -249,13 +253,6 @@
 			path = ModelOrClass;
 			sourceTree = "<group>";
 		};
-		F4F4F4D2215C053B0070F256 /* CategoryClass */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CategoryClass;
-			sourceTree = "<group>";
-		};
 		F4F4F4D3215C053C0070F256 /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +281,7 @@
 		F4F4F4DF215C053C0070F256 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F418946623794A2500C9D0ED /* 启动页 */,
 				F4F4F4E1215C053C0070F256 /* TableBaseVC.h */,
 				F4F4F4E0215C053C0070F256 /* TableBaseVC.m */,
 			);
@@ -327,6 +325,8 @@
 				F4F4F4F0215C053C0070F256 /* FEBaseTools.m */,
 				F4F4F4F3215C053C0070F256 /* QFBaseGroup.h */,
 				F4F4F4F1215C053C0070F256 /* QFBaseGroup.m */,
+				F41894612379483E00C9D0ED /* C_ClassTools.h */,
+				F41894622379483E00C9D0ED /* C_ClassTools.m */,
 			);
 			path = ExtensionClass;
 			sourceTree = "<group>";
@@ -339,23 +339,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAD0F3D8207DB0F800C7EB48 /* QNBasePublicClass.h in Headers */,
+				F4F4F4FB215C053C0070F256 /* MacroDefinitionHeader.h in Headers */,
 				F4F4F4F8215C053C0070F256 /* UpdateUrlTableViewController.h in Headers */,
 				F4F4F513215C053C0070F256 /* FEBaseTools.h in Headers */,
 				F4F4F50B215C053C0070F256 /* CalculateSize.h in Headers */,
+				F418946923794A8C00C9D0ED /* QNIntroductoryPagesView.h in Headers */,
 				F4F4F502215C053C0070F256 /* BaseTabbarViewController.h in Headers */,
 				F4F4F508215C053C0070F256 /* VersionBaseClass.h in Headers */,
+				F41894632379483E00C9D0ED /* C_ClassTools.h in Headers */,
+				F418947623794ADF00C9D0ED /* QNImtroductoryPagesHelper.h in Headers */,
 				F4F4F505215C053C0070F256 /* BaseViewController.h in Headers */,
 				F4F4F514215C053C0070F256 /* QFBaseGroup.h in Headers */,
 				F4F4F4FA215C053C0070F256 /* Base_URLClass.h in Headers */,
 				F4F4F4F5215C053C0070F256 /* AssistiveTouch.h in Headers */,
+				F41894602379479600C9D0ED /* QNBasePublicHeader.h in Headers */,
 				F4F4F50D215C053C0070F256 /* VersionClass.h in Headers */,
 				F4F4F4FF215C053C0070F256 /* BaseNavigationBar.h in Headers */,
 				F4F4F50E215C053C0070F256 /* CoreDataPublicManager.h in Headers */,
-				BA75498A207DB7FF00768460 /* TableBaseVC.h in Headers */,
 				F4F4F501215C053C0070F256 /* BaseNavigationViewController.h in Headers */,
 				F4F4F500215C053C0070F256 /* MenuViewController.h in Headers */,
-				F4F4F4FB215C053C0070F256 /* MacroDefinitionHeader.h in Headers */,
-				F4F4F507215C053C0070F256 /* TableBaseVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,12 +368,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAD0F3DB207DB0F800C7EB48 /* Build configuration list for PBXNativeTarget "QNBasePublicClass" */;
 			buildPhases = (
-				739F200FCDA9695F7DE6D819 /* [CP] Check Pods Manifest.lock */,
 				BAD0F3C2207DB0F800C7EB48 /* Sources */,
 				BAD0F3C3207DB0F800C7EB48 /* Frameworks */,
 				BAD0F3C4207DB0F800C7EB48 /* Headers */,
 				BAD0F3C5207DB0F800C7EB48 /* Resources */,
-				A94BE81934EE268559F008D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -406,7 +406,7 @@
 		BAD0F3BE207DB0F800C7EB48 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = Qo_Tn;
 				TargetAttributes = {
 					BAD0F3C6207DB0F800C7EB48 = {
@@ -425,6 +425,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = BAD0F3BD207DB0F800C7EB48;
 			productRefGroup = BAD0F3C8207DB0F800C7EB48 /* Products */;
@@ -442,6 +443,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F418947123794ABA00C9D0ED /* intro_1.jpg in Resources */,
+				F418947323794ABA00C9D0ED /* intro_0.jpg in Resources */,
+				F418947023794ABA00C9D0ED /* intro_2.jpg in Resources */,
+				F418947223794ABA00C9D0ED /* intro_3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,42 +459,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		739F200FCDA9695F7DE6D819 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QNBasePublicClass-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A94BE81934EE268559F008D5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-QNBasePublicClass/Pods-QNBasePublicClass-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		BAD0F3C2207DB0F800C7EB48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -497,6 +466,7 @@
 			files = (
 				F4F4F4F6215C053C0070F256 /* UpdateUrlTableViewController.m in Sources */,
 				F4F4F504215C053C0070F256 /* MenuViewController.m in Sources */,
+				F41894642379483E00C9D0ED /* C_ClassTools.m in Sources */,
 				F4F4F506215C053C0070F256 /* TableBaseVC.m in Sources */,
 				F4F4F50C215C053C0070F256 /* VersionBaseClass.m in Sources */,
 				F4F4F50A215C053C0070F256 /* CalculateSize.m in Sources */,
@@ -504,11 +474,12 @@
 				F4F4F4FD215C053C0070F256 /* BaseViewController.m in Sources */,
 				F4F4F512215C053C0070F256 /* QFBaseGroup.m in Sources */,
 				F4F4F4F9215C053C0070F256 /* Base_URLClass.m in Sources */,
+				F418947723794ADF00C9D0ED /* QNImtroductoryPagesHelper.m in Sources */,
 				F4F4F503215C053C0070F256 /* BaseNavigationViewController.m in Sources */,
 				F4F4F4FC215C053C0070F256 /* BaseTabbarViewController.m in Sources */,
+				F418946A23794A8C00C9D0ED /* QNIntroductoryPagesView.m in Sources */,
 				F4F4F50F215C053C0070F256 /* CoreDataPublicManager.m in Sources */,
 				F4F4F509215C053C0070F256 /* VersionClass.m in Sources */,
-				BA75498B207DB7FF00768460 /* TableBaseVC.m in Sources */,
 				F4F4F4FE215C053C0070F256 /* BaseNavigationBar.m in Sources */,
 				F4F4F4F7215C053C0070F256 /* AssistiveTouch.m in Sources */,
 			);
@@ -649,12 +620,11 @@
 		};
 		BAD0F3DC207DB0F800C7EB48 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F67DF5B76FFE26A567B4E532 /* Pods-QNBasePublicClass.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = PUB5T7Z6P6;
+				DEVELOPMENT_TEAM = 43588WFG92;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -670,12 +640,11 @@
 		};
 		BAD0F3DD207DB0F800C7EB48 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56169A05E2391D04873F2687 /* Pods-QNBasePublicClass.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = PUB5T7Z6P6;
+				DEVELOPMENT_TEAM = 43588WFG92;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";

@@ -1,47 +1,58 @@
 workspace 'MyWorkspaceOC-Pod.xcworkspace' #workspace文件名
 
-project ‘MyWorkspaceOC/MyWorkspaceOC.xcodeproj' #主工程路径
+project 'MyWorkspaceOC/MyWorkspaceOC.xcodeproj' #主工程路径
 
 # 主工程
-target ‘MyWorkspaceOC’ do
+target 'MyWorkspaceOC' do
     
-    platform :ios, '8.0'
+    platform :ios, '9.0'
     use_frameworks!
     inhibit_all_warnings!
-    project ‘MyWorkspaceOC/MyWorkspaceOC.xcodeproj' #工程路径
+    project 'MyWorkspaceOC/MyWorkspaceOC.xcodeproj' #工程路径
     pod 'AFNetworking'
     pod 'FMDB'
 end
 
 #FMDB 项目工程
-target ‘FmdbProject’ do
+target 'FmdbProject' do
     
-    platform :ios, '8.0'
+    platform :ios, '9.0'
     use_frameworks!
     inhibit_all_warnings!
-    project ‘FmdbProject/FmdbProject.xcodeproj' #工程路径
+    project 'FmdbProject/FmdbProject.xcodeproj' #工程路径
     pod 'AFNetworking'
     pod 'FMDB'
 end
 
 #K线  项目工程
-target ‘k-LineProject’ do
+target 'k-LineProject' do
     
-    platform :ios, '8.0'
+    platform :ios, '9.0'
     use_frameworks!
     inhibit_all_warnings!
-    project ‘k-LineProject/k-LineProject.xcodeproj' #工程路径
+    project 'k-LineProject/k-LineProject.xcodeproj' #工程路径
     pod 'AFNetworking'
     pod 'FMDB'
 end
 
 #K线  项目工程
-target ‘QNBasePublicClass’ do
+target 'RACProject' do
     
-    platform :ios, '8.0'
+    platform :ios, '9.0'
     use_frameworks!
     inhibit_all_warnings!
-    project ‘QNBasePublicClass/QNBasePublicClass.xcodeproj' #工程路径
-
+    project 'RACProject/RACProject.xcodeproj' #工程路径
+    pod 'ReactiveObjC'
 end
+
+
+# #K线  项目工程
+# target 'QNBasePublicClass' do
+#
+#     platform :ios, '8.0'
+#     use_frameworks!
+#     inhibit_all_warnings!
+#     project 'QNBasePublicClass/QNBasePublicClass.xcodeproj' #工程路径
+#
+# end
 

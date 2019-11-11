@@ -180,7 +180,6 @@
 				F43E04A81F177C55007ED720 /* Frameworks */,
 				F43E04A91F177C55007ED720 /* Resources */,
 				168D90FD1273BC6C9FA3FE9A /* [CP] Embed Pods Frameworks */,
-				ECFEBF3C0B3360E25158A3D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,12 +232,12 @@
 		F43E04A31F177C55007ED720 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = Qo_Tn;
 				TargetAttributes = {
 					F43E04AA1F177C55007ED720 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = PUB5T7Z6P6;
+						DevelopmentTeam = 43588WFG92;
 						ProvisioningStyle = Automatic;
 					};
 					F43E04C31F177C55007ED720 = {
@@ -257,7 +256,7 @@
 			};
 			buildConfigurationList = F43E04A61F177C55007ED720 /* Build configuration list for PBXProject "k-LineProject" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -309,7 +308,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/../Pods/Target Support Files/Pods-k-LineProject/Pods-k-LineProject-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-k-LineProject/Pods-k-LineProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 			);
@@ -320,22 +319,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-k-LineProject/Pods-k-LineProject-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ECFEBF3C0B3360E25158A3D5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-k-LineProject/Pods-k-LineProject-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-k-LineProject/Pods-k-LineProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F2CF7C247A1F6B2E525690AD /* [CP] Check Pods Manifest.lock */ = {
@@ -424,6 +408,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -481,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -533,7 +519,7 @@
 			baseConfigurationReference = F7E783A2CD1D9ABDAC0648A8 /* Pods-k-LineProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PUB5T7Z6P6;
+				DEVELOPMENT_TEAM = 43588WFG92;
 				INFOPLIST_FILE = "k-LineProject/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunqifeng.k-LineProject";
@@ -546,7 +532,7 @@
 			baseConfigurationReference = DFA4D5A7313AC7F677924D6C /* Pods-k-LineProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PUB5T7Z6P6;
+				DEVELOPMENT_TEAM = 43588WFG92;
 				INFOPLIST_FILE = "k-LineProject/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunqifeng.k-LineProject";

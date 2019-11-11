@@ -220,7 +220,6 @@
 				F43E04691F177C31007ED720 /* Frameworks */,
 				F43E046A1F177C31007ED720 /* Resources */,
 				5152D835EC3D916748D4A844 /* [CP] Embed Pods Frameworks */,
-				1342C70482DB99D57ABE17A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,12 +272,12 @@
 		F43E04641F177C30007ED720 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = Qo_Tn;
 				TargetAttributes = {
 					F43E046B1F177C31007ED720 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 9YTQQLPWZV;
+						DevelopmentTeam = 43588WFG92;
 						ProvisioningStyle = Automatic;
 					};
 					F43E04841F177C31007ED720 = {
@@ -297,7 +296,7 @@
 			};
 			buildConfigurationList = F43E04671F177C30007ED720 /* Build configuration list for PBXProject "FmdbProject" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -343,28 +342,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1342C70482DB99D57ABE17A6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-FmdbProject/Pods-FmdbProject-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5152D835EC3D916748D4A844 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/../Pods/Target Support Files/Pods-FmdbProject/Pods-FmdbProject-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-FmdbProject/Pods-FmdbProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 			);
@@ -375,7 +359,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-FmdbProject/Pods-FmdbProject-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FmdbProject/Pods-FmdbProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ECD4B3E365F8AF79FF61B6CB /* [CP] Check Pods Manifest.lock */ = {
@@ -470,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -527,6 +512,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -579,7 +565,7 @@
 			baseConfigurationReference = 0802ECB275EA4F6BC8400C96 /* Pods-FmdbProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9YTQQLPWZV;
+				DEVELOPMENT_TEAM = 43588WFG92;
 				INFOPLIST_FILE = FmdbProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunqifeng.FmdbProject;
@@ -592,7 +578,7 @@
 			baseConfigurationReference = D6D1D86FBC6B25B9475E9101 /* Pods-FmdbProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9YTQQLPWZV;
+				DEVELOPMENT_TEAM = 43588WFG92;
 				INFOPLIST_FILE = FmdbProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunqifeng.FmdbProject;

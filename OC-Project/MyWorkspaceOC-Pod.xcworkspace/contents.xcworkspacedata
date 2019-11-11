@@ -14,6 +14,9 @@
       location = "group:RequestProject/RequestProject.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:RACProject/RACProject.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
    <FileRef
