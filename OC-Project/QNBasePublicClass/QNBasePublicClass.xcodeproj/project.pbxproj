@@ -15,13 +15,13 @@
 		F41894602379479600C9D0ED /* QNBasePublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BA754977207DB19C00768460 /* QNBasePublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F41894632379483E00C9D0ED /* C_ClassTools.h in Headers */ = {isa = PBXBuildFile; fileRef = F41894612379483E00C9D0ED /* C_ClassTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F41894642379483E00C9D0ED /* C_ClassTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F41894622379483E00C9D0ED /* C_ClassTools.m */; };
-		F418946923794A8C00C9D0ED /* QNIntroductoryPagesView.h in Headers */ = {isa = PBXBuildFile; fileRef = F418946723794A8C00C9D0ED /* QNIntroductoryPagesView.h */; };
+		F418946923794A8C00C9D0ED /* QNIntroductoryPagesView.h in Headers */ = {isa = PBXBuildFile; fileRef = F418946723794A8C00C9D0ED /* QNIntroductoryPagesView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F418946A23794A8C00C9D0ED /* QNIntroductoryPagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = F418946823794A8C00C9D0ED /* QNIntroductoryPagesView.m */; };
 		F418947023794ABA00C9D0ED /* intro_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F418946C23794ABA00C9D0ED /* intro_2.jpg */; };
 		F418947123794ABA00C9D0ED /* intro_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F418946D23794ABA00C9D0ED /* intro_1.jpg */; };
 		F418947223794ABA00C9D0ED /* intro_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F418946E23794ABA00C9D0ED /* intro_3.jpg */; };
 		F418947323794ABA00C9D0ED /* intro_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F418946F23794ABA00C9D0ED /* intro_0.jpg */; };
-		F418947623794ADF00C9D0ED /* QNImtroductoryPagesHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F418947423794ADF00C9D0ED /* QNImtroductoryPagesHelper.h */; };
+		F418947623794ADF00C9D0ED /* QNImtroductoryPagesHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F418947423794ADF00C9D0ED /* QNImtroductoryPagesHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F418947723794ADF00C9D0ED /* QNImtroductoryPagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F418947523794ADF00C9D0ED /* QNImtroductoryPagesHelper.m */; };
 		F4F4F4F5215C053C0070F256 /* AssistiveTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4F4CA215C053B0070F256 /* AssistiveTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4F4F4F6215C053C0070F256 /* UpdateUrlTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4F4CB215C053B0070F256 /* UpdateUrlTableViewController.m */; };

@@ -92,7 +92,8 @@
                              setwithe:(float)withe{
     if (IS_IPHONE_6P){
         fontSize = fontSize+1;
-    }else if (IS_IPHONE_4_OR_LESS||IS_IPHONE_5){
+    }else if (IS_IPHONE_4_OR_LESS
+              || IS_IPHONE_5){
          fontSize = fontSize-1;
     }
     NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc]init];

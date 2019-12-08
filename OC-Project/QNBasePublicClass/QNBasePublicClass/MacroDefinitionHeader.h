@@ -11,6 +11,10 @@
 
 #pragma mark - 相关方法缩写
 
+/*------------ MARK: - 关键字缩写 -------------*/
+#define let __auto_type const
+#define var __auto_type
+
 /*-----------block 弱引用-------------*/
 #define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self
 #define WS_Type(weakType,type)  __weak __typeof(&*type)weakType = type
@@ -36,7 +40,7 @@
 #define SCREENSIZE [UIScreen mainScreen].bounds.size
 
 #define SCREEN_SIZE_WIDTH  [UIScreen mainScreen].bounds.size.width
-#define SCREEN_SIZE_HIGHT  [UIScreen mainScreen].bounds.size.height
+#define SCREEN_SIZE_HEIGHT  [UIScreen mainScreen].bounds.size.height
 
 /*-----------获取当前视图位置属性-------------*/
 #define X(v)                    (v).frame.origin.x
@@ -72,8 +76,8 @@
 #define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
 #define IS_RETINA ([[UIScreen mainScreen] scale] >= 2.0)
 
-#define SCREEN_MAX_LENGTH (MAX(SCREEN_SIZE_WIDTH, SCREEN_SIZE_HIGHT))
-#define SCREEN_MIN_LENGTH (MIN(SCREEN_SIZE_WIDTH, SCREEN_SIZE_HIGHT))
+#define SCREEN_MAX_LENGTH (MAX(SCREEN_SIZE_WIDTH, SCREEN_SIZE_HEIGHT))
+#define SCREEN_MIN_LENGTH (MIN(SCREEN_SIZE_WIDTH, SCREEN_SIZE_HEIGHT))
 
 #define IS_IPHONE_4_OR_LESS (IS_IPHONE && SCREEN_MAX_LENGTH < 568.0)//iphone4
 #define IS_IPHONE_5 (IS_IPHONE && SCREEN_MAX_LENGTH == 568.0)//iphone5
@@ -82,7 +86,7 @@
 #define IS_IPHONE_X  (IS_IPHONE && SCREEN_MAX_LENGTH == 812.0) //iphoneX
 
 /*----------- iPhone X 适配 -------------*/
-#define iPhone_X  (SCREEN_SIZE_HIGHT == iphoneX_HIGHT)
+#define iPhone_X  (SCREEN_SIZE_HEIGHT == iphoneX_HIGHT)
 
 #define kNavHight 64    //  顶部导航栏高度
 #define iPhoneX_Nav  88.0f
@@ -91,7 +95,7 @@
 #define iPhoneX_TOP (IS_IPHONE_X?44:20)
 
 /*-----------宽高比 -------------*/
-#define SuitHeight (SCREEN_SIZE_HIGHT/iPhone6P_HIGHT)
+#define SuitHeight (SCREEN_SIZE_HEIGHT/iPhone6P_HIGHT)
 #define SuitWidth (SCREEN_SIZE_WIDTH/iPhone6_Width) //计算屏幕比例大小 以6为原型,没被用到
 
 #define FIT_SIZE (SCREEN_SIZE_WIDTH/iPhone5_Width) //  体育测评中用到
@@ -100,6 +104,9 @@
 #ifndef COLOR
 #define COLOR(r,g,b,al) [UIColor colorWithRed:r/255.0f green:g/255.0 blue:b/255.0 alpha:al]
 #endif
+
+// 随机颜色（RGB）
+#define RandomColor [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1.0f]
 
 /*
  16进制的文字颜色转RGB

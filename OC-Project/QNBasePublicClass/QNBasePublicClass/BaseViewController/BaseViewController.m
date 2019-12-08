@@ -33,9 +33,9 @@
     
     CGRect Rect;
     if (IS_IPHONE_X) {
-        Rect = CGRectMake(0, iPhoneX_NAV, SCREEN_SIZE_WIDTH, SCREEN_SIZE_HIGHT - iPhoneX_NAV - 35);
+        Rect = CGRectMake(0, iPhoneX_NAV, SCREEN_SIZE_WIDTH, SCREEN_SIZE_HEIGHT - iPhoneX_NAV - 35);
     } else {
-        Rect = CGRectMake(0, iPhoneX_NAV, SCREEN_SIZE_WIDTH, SCREEN_SIZE_HIGHT - iPhoneX_NAV);
+        Rect = CGRectMake(0, iPhoneX_NAV, SCREEN_SIZE_WIDTH, SCREEN_SIZE_HEIGHT - iPhoneX_NAV);
     }
     self.baseScrollView = [[UIScrollView alloc] initWithFrame:Rect];
     self.baseScrollView.bounces = NO;
@@ -59,7 +59,7 @@
 
 - (void)setBlockedView
 {
-    self.blockedView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_SIZE_WIDTH, SCREEN_SIZE_HIGHT)];
+    self.blockedView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_SIZE_WIDTH, SCREEN_SIZE_HEIGHT)];
     [self.blockedView setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:0.6]];
 }
 
@@ -104,7 +104,7 @@
 
 - (UIView *)blockedView {
     if (!_blockedView) {
-        _blockedView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_SIZE_WIDTH, SCREEN_SIZE_HIGHT)];
+        _blockedView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_SIZE_WIDTH, SCREEN_SIZE_HEIGHT)];
         [_blockedView setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:0.6]];
     }
     return _blockedView;
